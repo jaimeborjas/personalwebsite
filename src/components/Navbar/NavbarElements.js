@@ -11,7 +11,7 @@ export const Nav = styled.nav`
     justify-content: space-between;
     font-size: 1rem;
     align-items: center;
-    padding: 0.5rem calc((100vw - 1500px)/2);
+    padding: 0.5rem calc((100vw - 1200px)/2);
     z-index: 10;
     position: sticky;
     top: 0;
@@ -59,9 +59,9 @@ export const Bars = styled(FaBars)`
         position: absolute;
         top: 0;
         right: 0;
-        padding-top: 5px;
+        margin-top: 10px;
         transform:  translate(-100%, 75%);
-        font-size: 2.2rem;
+        font-size: 2rem;
         cursor: pointer;
     }
 `
@@ -90,7 +90,7 @@ export const NavBtn = styled.nav`
 export const NavBtnLink = styled(LinkR)`
     border-radius: 100px;
     background: white;
-    padding: 15px 30px;
+    padding: 15px 20px;
     color: #256ce1 ;
     border: solid 1px;
     border-color: #256ce1;
